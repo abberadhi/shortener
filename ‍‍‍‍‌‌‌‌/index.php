@@ -1,0 +1,1 @@
+<?php include __DIR__ . '/../incl/functions.php'; $id = "&zwj;&zwj;&zwj;&zwj;&zwnj;&zwnj;&zwnj;&zwnj;"; $url = get_url($id); header('Location: '. $url); ?>
